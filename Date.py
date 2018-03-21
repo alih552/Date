@@ -9,7 +9,7 @@ m = 1
 y = 2018
 
 
-for i in range(1,400):
+while True :
     d += 1
     # time.sleep(86400)
     # un comment the line that is apove this line if you want the day digit to change every 24 hours .
