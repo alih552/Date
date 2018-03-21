@@ -12,7 +12,7 @@ y = 2018
 while True :
     d += 1
     # time.sleep(86400)
-    # un comment the line that is apove this line if you want the day digit to change every 24 hours .
+    # un comment the line that is above this line if you want the day digit to change every 24 hours .
 
     if d == 31 and m == 12:
         y +=1
