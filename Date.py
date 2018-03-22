@@ -14,7 +14,7 @@ while True :
 
 
     d += 1
-    time.sleep(0.01)  # 86400
+    #time.sleep(86400)  
     # un comment the line that is above this line if you want the day digit to change every 24 hours .
 
     # if y % 4 == 0 and m == 2 and d == 29 :
@@ -64,34 +64,3 @@ while True :
 
     date(d,m,y)
 
-# ---------------------------------------------------------------------
-
-# year = 2000
-# x = [4,6,9,11]
-# y = [1,3,5,7,8,10,12]
-# for i in range(19):
-#     year +=1
-#     month = 0
-#     for j in range(12):
-#         month+=1
-#         day = 0
-#         if year % 4 == 0:
-#             if month == 2:
-#                 for t in range(29):
-#                     day += 1
-#                     print(day, "/", month, "/", year)
-#                     break
-#         for k in x:
-#             if month == k:
-#                 for t in range(30):
-#                     day+=1
-#                     print(day, "/", month, "/", year)
-#         for f in y:
-#             if month == f:
-#                 for t in range(31):
-#                     day+=1
-#                     print(day, "/", month, "/", year)
-#         if month == 2:
-#             for t in range(28):
-#                 day += 1
-#                 print(day, "/", month, "/", year)
