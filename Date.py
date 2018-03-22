@@ -17,9 +17,6 @@ while True :
     #time.sleep(86400)  
     # un comment the line that is above this line if you want the day digit to change every 24 hours .
 
-    # if y % 4 == 0 and m == 2 and d == 29 :
-    #     d = 1
-    #     m += 1
 
     if d == 32 and m == 12:
         y +=1
